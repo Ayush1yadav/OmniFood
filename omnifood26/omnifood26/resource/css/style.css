@@ -56,7 +56,7 @@ h2{
 
 h2::after{
     height: 2px;
-    background-color: #9a6604;
+    background-color: #ff9500;
     display: block;
     content: " ";
     width: 100px;
@@ -81,30 +81,30 @@ h3{
 .btn-full:link,
 .btn-full:visited{
     color: #fff;
-    background-color: #9a6604;
-    border: 1px solid #9a6604;
+    background-color: #ff9500;
+    border: 1px solid #ff9500;
     margin-right: 10px;
 }
 
 .btn-border:link,
 .btn-border:visited{
-    color: #9a6604;
-    border: 1px solid #9a6604;
+    color: #ff9500;
+    border: 1px solid #ff9500;
 }
 
 .btn:hover,
 .btn:active{
-    background-color: #845703;
+    background-color: #e18300;
 }
 
 .btn-full:hover,
 .btn-full:active{
-    border: 1px solid #845703;
+    border: 1px solid #e18300;
 }
 
 .btn-border:hover,
 .btn-border:active{
-    border: 1px solid #845703;
+    border: 1px solid #e18300;
     color: #fff;
 }
 
@@ -139,7 +139,7 @@ h3{
 
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: 2px solid #9a6604;
+    border-bottom: 2px solid #e18300;
 }
 
 section{
@@ -167,7 +167,7 @@ section{
 }
 
 .icon-big{
-    color: #9a6604;
+    color : #ff9500;
     font-size: 240%;
 }
 
@@ -203,4 +203,16 @@ section{
 
 .section-meals{
     padding: 0;
+}
+
+.step-box img{
+    width: 40%;
+    height: auto;
+}
+.step-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.step-box:last-child{
+    padding-left: 3%;
 }
