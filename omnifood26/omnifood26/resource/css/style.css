@@ -205,6 +205,10 @@ section{
     padding: 0;
 }
 
+.section-works{
+    background-color: #eeeeee;
+}
+
 .step-box img{
     width: 40%;
     height: auto;
@@ -212,7 +216,54 @@ section{
 .step-box:first-child{
     text-align: right;
     padding-right: 3%;
+    margin-top: 30px;
 }
 .step-box:last-child{
     padding-left: 3%;
+    margin-top: 70px;
+}
+.work-steps{
+    margin-bottom: 50px;
+}
+
+.work-steps div{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    color: #ff9500;
+    border: 1px solid #ff9500;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 80%;
+    float: left;
+    margin-right: 5px;
+}
+
+.work-steps div:hover{
+    background-color: #ff9500;
+    color: #fff;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-img img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.btn-img img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.work-steps:last-of-type{
+    margin-bottom:80px;
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
 }
