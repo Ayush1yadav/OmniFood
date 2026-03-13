@@ -321,14 +321,30 @@ section{
         background-attachment: fixed;
 }
 
+blockquote::before{
+    content: "“";
+    font-size: 300%;
+    position: relative;
+    top: 5px;
+    left: -0px;
+    color: #ff9500;
+}
 
 blockquote{
     font-style: italic;
     line-height: 145%;
     text-align: justify;
     color: #ffffff;
-    border-left: 4px solid #ff9500;
-    padding: 2%; 
+    padding: 2%;
+    border-left: 2px solid #ff9500;
+}
+
+blockquote::after{
+    content: "”";
+    font-size: 300%;
+    color: #ff9500;
+    vertical-align: top;
+    float: right;
 }
 
 cite{
