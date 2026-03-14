@@ -370,19 +370,42 @@ cite img{
     width: 90%;
     margin-left: 5%;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px #00000033;
 }
+
+
 
 .meal-month{
     font-size: 300%;
     color: #ff9500;
     font-weight: 100;
+    margin-bottom: 7px;
 }
 
 .meal-month span{
     font-size: 50%;
     font-weight: 300;
 }
+
 .plan-box div{
     border-bottom: 1px solid #a6a6a6;
     padding: 15px;
+}
+
+.meal-daily{
+    font-size: 90%;
+}
+
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border-bottom: 0px;
 }
