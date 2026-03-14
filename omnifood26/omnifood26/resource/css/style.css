@@ -360,3 +360,29 @@ cite img{
     vertical-align: middle; 
     margin-right: 5px;
 }
+
+.section-plans{
+    background-color: #eeeeee;
+}
+
+.plan-box{
+    background-color: #fff;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.meal-month{
+    font-size: 300%;
+    color: #ff9500;
+    font-weight: 100;
+}
+
+.meal-month span{
+    font-size: 50%;
+    font-weight: 300;
+}
+.plan-box div{
+    border-bottom: 1px solid #a6a6a6;
+    padding: 15px;
+}
