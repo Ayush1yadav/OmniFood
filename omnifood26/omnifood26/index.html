@@ -362,11 +362,68 @@
     </div>
 </section>
 <section class="section-form">
-    <section class="row">
+    <div class="row">
         <h2>
             We're happy to hear from you
         </h2>
-    </section>
+    </div>
+    <div class="row">
+        <form action="#" method="post" class="feedback-form">
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Name</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Enter Your Mail" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>How Did You Find Us ?</label>
+                </div>
+                <div class="col span-2-of-3">
+                <select name="find-us" id="find-us">
+                    <option value="news">Newspaper</option>
+                    <option value="ads">Ads</option>
+                    <option value="sm" selected>Social Media</option>
+                    <option value="ff">Friends/Family</option>
+                    <option value="other"">Other</option>
+                </select>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>News Letter</label>
+                </div>
+                <div class="col span-2-of-3">
+                <input type="checkbox" name="news" id="news" checked> Yes! Please
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Drop us a Line</label>
+                </div>
+                <div class="col span-2-of-3">
+                <textarea name="feedback" id="feedback"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </div>
+        </form>
+    </div>
 </section>
 </body>
 

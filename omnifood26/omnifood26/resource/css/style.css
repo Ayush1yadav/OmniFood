@@ -86,7 +86,9 @@ a:active{
 
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]
+{
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -96,7 +98,9 @@ a:active{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]
+{
     color: #fff;
     background-color: #ff9500;
     border: 1px solid #ff9500;
@@ -110,12 +114,15 @@ a:active{
 }
 
 .btn:hover,
-.btn:active{
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active{
     background-color: #e18300;
 }
 
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active
+{
     border: 1px solid #e18300;
 }
 
@@ -409,3 +416,27 @@ cite img{
     text-align: center;
     border-bottom: 0px;
 }
+
+.feedback-form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select, 
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid #a6a6a6;
+}
+
+textarea{
+    height: 100px;
+}
+
+*:focus{
+    outline: none;
+}
+
